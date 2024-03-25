@@ -4,16 +4,14 @@
 using namespace std;
 
 int main() {
-    double R;
-    const double PI = 3.14159;
 
-    
+int n;
 
-    cin >> R;
-
-    double A = PI * R * R;
-
-    cout << "A=" << A << endl;
+cin>>n;
+for(int i = 1;i<=10;i++)
+{
+    cout<<n<<" * "<<i<<"="<<n*i<<endl;
+}
 
     return 0;
 }
