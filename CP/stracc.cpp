@@ -3,11 +3,12 @@
 using namespace std;
 int main()
 { 
-    string str = "Hello mf";
-    str[0]='a';//single char tai "" dite parbo na. karon amra string assign kortesi na
-    str[3]='p';
+    string valo = "Hello mf"; //space o count hoi
+    valo[0]='a';//single char tai "" dite parbo na. karon amra string assign kortesi na
+    valo[3]='p';
 
-    cout<<str<<endl;
+    cout<<valo<<endl;
+    cout<<"The size of the string "<<valo.size()<<endl;
 
 
     return 0;
