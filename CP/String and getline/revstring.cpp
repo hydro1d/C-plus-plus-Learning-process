@@ -11,7 +11,7 @@ int main()
     string str_rev;
     for (int i = str.size() - 1; i >= 0; i--)
     {
-        str_rev += str_rev + str[i];
+        str_rev = str_rev + str[i];
     }
     cout << str_rev << endl; // palindrome check korar jonno if-else nibo(str==str_rev)
 }
